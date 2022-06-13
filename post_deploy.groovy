@@ -18,9 +18,7 @@ pipeline {
                     
                     def stand_servers = karta[Stand]
                     stand_servers.each {entry ->
-                        print(entry["ip"])
-                        
-                            
+                        print(entry["ip"])    
                     }      
                 }
             }
