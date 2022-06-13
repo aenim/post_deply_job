@@ -19,6 +19,7 @@ pipeline {
                     def stand_servers = karta[Stand]
                     stand_servers.each {entry ->
                         print(entry["ip"])
+                        print('message for 2nd branch')
                         
                             
                     }      
