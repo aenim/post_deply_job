@@ -18,14 +18,7 @@ pipeline {
                     
                     def stand_servers = karta[Stand]
                     stand_servers.each {entry ->
-<<<<<<< HEAD
                         print(entry["ip"])    
-=======
-                        print(entry["ip"])
-                        print('message for 2nd branch')
-                        
-                            
->>>>>>> 32c6bf7a33eef4352435a7bfa06f2984ca6b25b5
                     }      
                 }
             }
